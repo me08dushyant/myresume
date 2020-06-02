@@ -1,6 +1,6 @@
 import {LitElement, html, css, customElement, property} from 'https://unpkg.com/lit-element@2.3.1/lit-element.js?module';
 
-import '/icons/iron-icons/iron-icons.js';
+import 'myresume/icons/iron-icons/iron-icons.js';
 
 
 export class ResumeView  extends LitElement{
