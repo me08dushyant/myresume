@@ -1,41 +1,41 @@
-import 'src/home-page.js';
-import 'src/about-page.js';
-import 'src/cota-page.js';
-import 'src/blueplanet-page.js';
-import 'src/northshore-page.js';
-import 'src/amc-page.js';
-import 'src/favorit-page.js';
-import 'src/tdvr-page.js';
-import 'src/vonstosh-page.js';
+import '/myresume/src/home-page.js';
+import '/myresume/src/about-page.js';
+import '/myresume/src/cota-page.js';
+import '/myresume/src/blueplanet-page.js';
+import '/myresume/src/northshore-page.js';
+import '/myresume/src/amc-page.js';
+import '/myresume/src/favorit-page.js';
+import '/myresume/src/tdvr-page.js';
+import '/myresume/src/vonstosh-page.js';
 
 
 
-import 'src/videoquiz-page.js';
-import 'src/viewer-page.js';
-import 'src/real-page.js';
-import 'src/gem-page.js';
-import 'src/interior-page.js';
-import 'src/namohomes-page.js';
-import 'src/parisvideo-page.js';
-import 'src/aeroplane-page.js';
-import 'src/qziko-page.js';
+import '/myresume/src/videoquiz-page.js';
+import '/myresume/src/viewer-page.js';
+import '/myresume/src/real-page.js';
+import '/myresume/src/gem-page.js';
+import '/myresume/src/interior-page.js';
+import '/myresume/src/namohomes-page.js';
+import '/myresume/src/parisvideo-page.js';
+import '/myresume/src/aeroplane-page.js';
+import '/myresume/src/qziko-page.js';
 
-import 'src/gallery-page.js';
-import 'src/cats-page.js';
-import 'src/parispotion-page.js';
-import 'src/lalaboom-page.js';
-import 'src/cosmetics-page.js';
-import 'src/golfjet-page.js';
-
-
-import 'src/component/nav-view.js';
-import 'src/component/iframe-view.js';
-import 'src/component/gallery-view.js';
-import 'src/component/video-view.js';
+import '/myresume/src/gallery-page.js';
+import '/myresume/src/cats-page.js';
+import '/myresume/src/parispotion-page.js';
+import '/myresume/src/lalaboom-page.js';
+import '/myresume/src/cosmetics-page.js';
+import '/myresume/src/golfjet-page.js';
 
 
+import '/myresume/src/component/nav-view.js';
+import '/myresume/src/component/iframe-view.js';
+import '/myresume/src/component/gallery-view.js';
+import '/myresume/src/component/video-view.js';
 
-import {store} from 'store.js';
+
+
+import {store} from '/myresume/store.js';
 import {Router} from 'https://unpkg.com/@vaadin/router';
 
 
