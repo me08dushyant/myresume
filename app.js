@@ -1,3 +1,4 @@
+
 // import '/myresume/src/home-page.js';
 // import '/myresume/src/about-page.js';
 // import '/myresume/src/cota-page.js';
@@ -28,7 +29,7 @@
 // import '/myresume/src/golfjet-page.js';
 //
 //
- import 'src/component/nav-view.js';
+ import '/src/component/nav-view.js';
 // import '/myresume/src/component/iframe-view.js';
 // import '/myresume/src/component/gallery-view.js';
 // import '/myresume/src/component/video-view.js';
