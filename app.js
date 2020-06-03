@@ -32,46 +32,47 @@ import '/component/nav-view.js';
 import '/component/iframe-view.js';
 import '/component/gallery-view.js';
 import '/component/video-view.js';
+import '/component/contact-view.js';
 
 
 
-import {Router} from 'https://unpkg.com/@vaadin/router';
-
-
-const outlet = document.getElementById('outlet');
-const router = new Router(outlet);
-router.setRoutes([
-  {path: '/',   data:{title: 'Home'},  component: 'home-page'},
-  {path: '/about',  component: 'about-page'},
-  {path: '/cota', component: 'cota-page'},
-  {path: '/blueplanet', component: 'blueplanet-page'},
-  {path: '/northshore', component: 'northshore-page'},
-  {path: '/amc', component: 'amc-page'},
-  {path: '/favorit', component: 'favorit-page'},
-  {path: '/3dvr', component: 'tdvr-page'},
-  {path: '/von-stosh', component: 'vonstosh-page'},
-
-
-  {path: '/gems', component: 'gem-page'},
-  {path: '/real3d', component: 'real-page'},
-  {path: '/viewer', component: 'viewer-page'},
-  {path: '/videoquiz', component: 'videoquiz-page'},
-
-  {path: '/cats', component: 'cats-page'},
-  {path: '/gallery', component: 'gallery-page'   },
-  {path: '/paris-potion', component: 'parispotion-page'  },
-  {path: '/golfjet', component: 'golfjet-page'   },
-  {path: '/lalaboom', component: 'lalaboom-page'   },
-  {path: '/cosmetics', component: 'cosmetics-page'   },
-  {path: '/namohomes', component: 'namohomes-page'},
-  {path: '/pp-video', component: 'parisvideo-page'},
-  {path: '/aeroplane', component: 'aeroplane-page'},
-  {path: '/qziko', component: 'qziko-page'},
-  {path: '(.*)', component: 'about-page'},
-  {path: '/vr/1/',  component: 'iframe-view'},
-]);
-
-const recordUrlVisit = context => {
-  const visitedPath = context.pathname;
-  alert(visitedPath);
-}
+// import {Router} from 'https://unpkg.com/@vaadin/router';
+//
+//
+// const outlet = document.getElementById('outlet');
+// const router = new Router(outlet);
+// router.setRoutes([
+//   {path: '/',   data:{title: 'Home'},  component: 'home-page'},
+//   {path: '/about',  component: 'about-page'},
+//   {path: '/cota', component: 'cota-page'},
+//   {path: '/blueplanet', component: 'blueplanet-page'},
+//   {path: '/northshore', component: 'northshore-page'},
+//   {path: '/amc', component: 'amc-page'},
+//   {path: '/favorit', component: 'favorit-page'},
+//   {path: '/3dvr', component: 'tdvr-page'},
+//   {path: '/von-stosh', component: 'vonstosh-page'},
+//
+//
+//   {path: '/gems', component: 'gem-page'},
+//   {path: '/real3d', component: 'real-page'},
+//   {path: '/viewer', component: 'viewer-page'},
+//   {path: '/videoquiz', component: 'videoquiz-page'},
+//
+//   {path: '/cats', component: 'cats-page'},
+//   {path: '/gallery', component: 'gallery-page'   },
+//   {path: '/paris-potion', component: 'parispotion-page'  },
+//   {path: '/golfjet', component: 'golfjet-page'   },
+//   {path: '/lalaboom', component: 'lalaboom-page'   },
+//   {path: '/cosmetics', component: 'cosmetics-page'   },
+//   {path: '/namohomes', component: 'namohomes-page'},
+//   {path: '/pp-video', component: 'parisvideo-page'},
+//   {path: '/aeroplane', component: 'aeroplane-page'},
+//   {path: '/qziko', component: 'qziko-page'},
+//   {path: '(.*)', component: 'about-page'},
+//   {path: '/vr/1/',  component: 'iframe-view'},
+// ]);
+//
+// const recordUrlVisit = context => {
+//   const visitedPath = context.pathname;
+//   alert(visitedPath);
+// }

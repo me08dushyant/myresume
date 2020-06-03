@@ -1,11 +1,7 @@
 
 import {LitElement, html, css, customElement, property} from 'https://unpkg.com/lit-element@2.3.1/lit-element.js?module';
-import {autorun} from 'https://unpkg.com/mobx?module';
-import {store} from '/store.js';
-import { MobxLitElement } from 'https://unpkg.com/@adobe/lit-mobx@0.0.2/lit-mobx.js?module';
-import '/icons/iron-icons/iron-icons.js';
 
- class NavView  extends MobxLitElement{
+class NavView  extends LitElement{
    constructor(){
      super();
 
@@ -41,7 +37,7 @@ import '/icons/iron-icons/iron-icons.js';
 <div class="holder">
 
 <ul>
-<h4> <a href="/"> <iron-icon icon="icons:content-paste"></iron-icon> &nbsp; RESUME</a></h4>
+<h4> <a href="/"><!-- <iron-icon icon="icons:content-paste"></iron-icon> -->&nbsp; RESUME</a></h4>
 <h4>360 VR </h4>
 <li> <a href="/cota"> COTA </a> </li>
 <li> <a href="/blueplanet">Blue Planet </a> </li>
