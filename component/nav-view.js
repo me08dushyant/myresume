@@ -37,15 +37,15 @@ class NavView  extends LitElement{
 <div class="holder">
 
 <ul>
-<h4> <a href="/"><!-- <iron-icon icon="icons:content-paste"></iron-icon> -->&nbsp; RESUME</a></h4>
+<h4> <a href="index.html"><!-- <iron-icon icon="icons:content-paste"></iron-icon> -->&nbsp; RESUME</a></h4>
 <h4>360 VR </h4>
-<li> <a href="/cota.html"> COTA </a> </li>
-<li> <a href="/blueplanet.html">Blue Planet </a> </li>
-<li> <a href="/northshore.html" >Northshore</a> </li>
-<li> <a href="/amc.html" >AMC  </a> </li>
-<li> <a href="/favorit.html">Favorit</a> </li>
-<li> <a href="/3dvr.html">3D Virtual Tour</a> </li>
-<li> <a href="/von-stosh.html">Von Stosh</a> </li>
+<li> <a href="cota.html"> COTA </a> </li>
+<li> <a href="blueplanet.html">Blue Planet </a> </li>
+<li> <a href="northshore.html" >Northshore</a> </li>
+<li> <a href="amc.html" >AMC  </a> </li>
+<li> <a href="favorit.html">Favorit</a> </li>
+<li> <a href="3dvr.html">3D Virtual Tour</a> </li>
+<li> <a href="von-stosh.html">Von Stosh</a> </li>
 
 <span></span>
 
