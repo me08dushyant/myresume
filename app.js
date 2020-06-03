@@ -1,5 +1,5 @@
 
-import '/src/home-page.js';
+import '/myresume/src/home-page.js';
 // import '/myresume/src/about-page.js';
 // import '/myresume/src/cota-page.js';
 // import '/myresume/src/blueplanet-page.js';
@@ -29,7 +29,7 @@ import '/src/home-page.js';
 // import '/myresume/src/golfjet-page.js';
 //
 //
- import '/src/component/nav-view.js';
+ import '/myresume/src/component/nav-view.js';
 // import '/src/component/iframe-view.js';
 // import '/src/component/gallery-view.js';
 // import '/src/component/video-view.js';
