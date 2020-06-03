@@ -22,7 +22,5 @@ body{
   background-color:black;
 
 }
-#outlet{
-
-
-}
+ .homegrid{display:grid; grid-template-columns:6fr 5fr}
+ .portfolio{background-color:black;}
