@@ -29,10 +29,10 @@
 
 
 import '/component/nav-view.js';
-import '/component/iframe-view.js';
-import '/component/gallery-view.js';
-import '/component/video-view.js';
-import '/component/contact-view.js';
+// import '/component/iframe-view.js';
+// import '/component/gallery-view.js';
+// import '/component/video-view.js';
+// import '/component/contact-view.js';
 
 
 
