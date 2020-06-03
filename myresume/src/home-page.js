@@ -1,4 +1,4 @@
-//import '/component/resume-view.js';
+import './component/resume-view.js';
 import './component/contact-view.js';
 import {LitElement, html, css, customElement, property} from 'https://unpkg.com/lit-element@2.3.1/lit-element.js?module';
 
@@ -13,13 +13,12 @@ export class HomePage  extends LitElement{
   }
     render(){
       return html`
-	  <!--
+	 
       <div class="homegrid">
-        <resume-view></resume-view> -->
+	   
+        <resume-view></resume-view> 
         <div class="portfolio">
-        <contact-view></contact-view>
-
-HOME PAge Comes here 
+        <contact-view></contact-view> 
         </div>
       </div>
       `;

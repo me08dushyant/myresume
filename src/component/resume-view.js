@@ -1,6 +1,6 @@
 import {LitElement, html, css, customElement, property} from 'https://unpkg.com/lit-element@2.3.1/lit-element.js?module';
 
-//import './src/icons/iron-icons/iron-icons.js';
+import './icons/iron-icons/iron-icons.js';
 
 
 export class ResumeView  extends LitElement{
@@ -105,7 +105,7 @@ export class ResumeView  extends LitElement{
     render(){
       return html`
       <div class="resume" id="resume">
-          <!-- <div class="contact">
+          <div class="contact">
            <span> <span class="circle"><iron-icon icon="icons:perm-phone-msg"></iron-icon> </span> +91 9897916884</span>
              <span> <span class="circle"><iron-icon icon="icons:mail"></iron-icon> </span>  me08dushyant@gmail.com</span>
              <span> <span class="circle"><iron-icon icon="icons:language"></iron-icon> </span> www.dushyant</span>
@@ -113,7 +113,6 @@ export class ResumeView  extends LitElement{
            <div class="title">
              <h2>DUSHYANT KUMAR SINGH</h2>
              <span>CG Generalist / Creative Programmer </span>
--->
            </div>
            <div class="profile">
              <p>My job is simple spreading happiness and smile among my clients, viewers and my team through my skills and work. Currently I am working as freelancer. <br> Having experience of varoius trade helps me to come out with better approch to  address project. </p>
