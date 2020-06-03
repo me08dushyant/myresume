@@ -7,17 +7,9 @@ import {
 } from 'https://unpkg.com/lit-element@2.3.1/lit-element.js?module';
 
 
-import '/icons/iron-icons/iron-icons.js';
+//import '../icons/iron-icons/iron-icons.js';
 
 class ContactView extends LitElement {
-  static get properties() { return {
-    framesrc: { type: String }
-  };
-}
-constructor() {
-   super();
-   this.framesrc = 'http://experiencethecircuit.com';
- }
 
   static get styles() {
     return css`
@@ -79,7 +71,7 @@ button >span {
   }
 
   render() {
-    return html `
+    return html `<!--
     <div class="grid">
     <div class="holder">
     <h1>Connect Me </h1>
@@ -98,7 +90,9 @@ button >span {
     </div>
     </div>
 
+-->
 
+contact view
 
 
       `;

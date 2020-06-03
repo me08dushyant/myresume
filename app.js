@@ -1,5 +1,5 @@
 
-// import '/myresume/src/home-page.js';
+import '/src/home-page.js';
 // import '/myresume/src/about-page.js';
 // import '/myresume/src/cota-page.js';
 // import '/myresume/src/blueplanet-page.js';
@@ -8,7 +8,7 @@
 // import '/myresume/src/favorit-page.js';
 // import '/myresume/src/tdvr-page.js';
 // import '/myresume/src/vonstosh-page.js';
-//
+
 //
 //
 // import '/myresume/src/videoquiz-page.js';
@@ -30,9 +30,9 @@
 //
 //
  import '/src/component/nav-view.js';
-// import '/myresume/src/component/iframe-view.js';
-// import '/myresume/src/component/gallery-view.js';
-// import '/myresume/src/component/video-view.js';
+// import '/src/component/iframe-view.js';
+// import '/src/component/gallery-view.js';
+// import '/src/component/video-view.js';
 
 
 
@@ -68,7 +68,7 @@ router.setRoutes([
   {path: '/pp-video', component: 'parisvideo-page'},
   {path: '/aeroplane', component: 'aeroplane-page'},
   {path: '/qziko', component: 'qziko-page'},
-  {path: '(.*)', component: 'about-page'},
+  {path: '(.*)', component: 'home-page'},
   {path: '/vr/1/',  component: 'iframe-view'},
 ]);
 
