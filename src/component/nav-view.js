@@ -1,11 +1,11 @@
 
 import {LitElement, html, css, customElement, property} from 'https://unpkg.com/lit-element@2.3.1/lit-element.js?module';
 import {autorun} from 'https://unpkg.com/mobx?module';
-
+import {store} from '/store.js';
 import { MobxLitElement } from 'https://unpkg.com/@adobe/lit-mobx@0.0.2/lit-mobx.js?module';
-//import '/icons/iron-icons/iron-icons.js';
+import '/icons/iron-icons/iron-icons.js';
 
- class NavView  extends LitElement{
+ class NavView  extends MobxLitElement{
    constructor(){
      super();
 
@@ -95,7 +95,8 @@ import { MobxLitElement } from 'https://unpkg.com/@adobe/lit-mobx@0.0.2/lit-mobx
 
 
     }
-  
+    viewOne(e){   store.src='cats';    }
+    viewTwo(e){   store.src='paris-potion';   }
 
   }
 
