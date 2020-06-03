@@ -28,7 +28,7 @@
 // import './src/golfjet-page.js';
 
 
-import '/component/nav-view.js';
+import '/myresume/component/nav-view.js';
 // import '/component/iframe-view.js';
 // import '/component/gallery-view.js';
 // import '/component/video-view.js';
