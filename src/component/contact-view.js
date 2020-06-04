@@ -7,7 +7,7 @@ import {
 } from 'https://unpkg.com/lit-element@2.3.1/lit-element.js?module';
 
 
-import '/icons/iron-icons/iron-icons.js';
+//import '/icons/iron-icons/iron-icons.js';
 
 class ContactView extends LitElement {
   static get properties() { return {
