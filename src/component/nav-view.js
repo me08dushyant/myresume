@@ -3,7 +3,7 @@ import {LitElement, html, css, customElement, property} from 'https://unpkg.com/
 import {autorun} from 'https://unpkg.com/mobx?module';
 import {store} from '/store.js';
 import { MobxLitElement } from 'https://unpkg.com/@adobe/lit-mobx@0.0.2/lit-mobx.js?module';
-//import '/icons/iron-icons/iron-icons.js';
+import '/icons/iron-icons/iron-icons.js';
 
  class NavView  extends MobxLitElement{
    constructor(){
