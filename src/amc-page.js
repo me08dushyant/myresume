@@ -13,7 +13,7 @@ export class CotaPage  extends LitElement{
   }
     render(){
       return html`
-        <iframe-view framesrc="https://www.amc.com/FTWD360/360-tour/">
+        <iframe-view framesrc="http://www.amc.com/FTWD360/360-tour/">
 
         </iframe-view>
       `;
