@@ -9,7 +9,7 @@ export class ResumeView  extends LitElement{
     return css`
     h1, h2, h3, p {margin:0px;}
     ul{padding-inline-start: 20px;}
-    .resume{ padding:1.5em 2.5em 1.5em;  font-size: 110%;}
+    .resume{ padding:1.5em 2.5em 1.5em;  font-size: 110%; background-color:white;}
     .contact{
 
        display:inline-flex;
@@ -26,8 +26,11 @@ export class ResumeView  extends LitElement{
        margin-inline-end:5px;
        padding:5px;
        border-radius: 25px;
+	   padding-block-start: 9px;
+	   padding-inline-start: 9px;
      }
  span > iron-icon{  padding-left: 3px; padding-top:3px;}
+ .txt {top: -5px;    display: inline-block; position:relative;}
 
      h4{margin-block-start:0px; margin-block-end:.5em;}
      .title > h2 , h3, h4, {margin:0px; padding:0px;}
@@ -98,6 +101,24 @@ export class ResumeView  extends LitElement{
 
 
      .brands img{width:120px; padding-top:5px;}
+
+/* Larger than tablet */
+@media (min-width: 320px) {
+	.txt{display:none;}
+}
+
+/* Larger than desktop */
+@media (min-width: 1001px) {
+	.txt{display:none;}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1201px) {
+	.txt{display:none;}
+}
+@media (min-width: 1540px) {
+	.txt{display:inline;}
+}
     `;
   }
 
@@ -106,9 +127,9 @@ export class ResumeView  extends LitElement{
       return html`
       <div class="resume" id="resume">
            <div class="contact">
-           <span> <span class="circle"> <mwc-icon>phone</mwc-icon> </span> +91 9897916884</span>
-             <span> <span class="circle"><iron-icon icon="icons:mail"></iron-icon> </span>  me08dushyant@gmail.com</span>
-             <span> <span class="circle"><iron-icon icon="icons:language"></iron-icon> </span> www.dushyant</span>
+           <span> <span class="circle"><mwc-icon>phone</mwc-icon></span><span class="txt"> +91 9897916884</span></span>
+             <span> <span class="circle"><mwc-icon>email</mwc-icon></span> <span class="txt"> me08dushyant@gmail.com</span></span>
+             <span> <span class="circle"><mwc-icon>language</mwc-icon> </span><span class="txt">  www.dushyant</span></span>
            </div>
            <div class="title">
              <h2>DUSHYANT KUMAR SINGH</h2>

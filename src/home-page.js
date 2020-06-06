@@ -9,6 +9,28 @@ export class HomePage  extends LitElement{
     return css`
       .homegrid{display:grid; grid-template-columns:6fr 5fr}
       .portfolio{background-color:black;}
+	  
+	  @media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 320px) {
+	.homegrid{display:grid; grid-template-columns:1fr;}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	.homegrid{display:grid; grid-template-columns:1fr;}
+}
+
+/* Larger than desktop */
+@media (min-width: 1001px) {
+	  .homegrid{display:grid; grid-template-columns:1fr;}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1201px) {
+	 .homegrid{display:grid; grid-template-columns:6fr 5fr}
+}
 
     `;
   }

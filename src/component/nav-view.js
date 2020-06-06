@@ -3,7 +3,7 @@ import {LitElement, html, css, customElement, property} from 'https://unpkg.com/
 import {autorun} from 'https://unpkg.com/mobx?module';
 import {store} from '/store.js';
 import { MobxLitElement } from 'https://unpkg.com/@adobe/lit-mobx@0.0.2/lit-mobx.js?module';
-//import '/icons/iron-icons/iron-icons.js';
+//import '@polymer/iron-icon/iron-icon.js';
 
  class NavView  extends MobxLitElement{
    constructor(){
@@ -18,9 +18,15 @@ import { MobxLitElement } from 'https://unpkg.com/@adobe/lit-mobx@0.0.2/lit-mobx
       position:sticky;
       top:0px;
       padding-block-start:15px;
+	  overflow: auto; 
+      text-align:justify; 
 
 
     }
+	.txt {position: relative;
+    display: inline-block;
+    position: relative;
+    top: -6px;}
     a{color:white; font-size:15px; text-decoration:none;}
     a:hover{font-weight:700}
 
@@ -34,6 +40,7 @@ import { MobxLitElement } from 'https://unpkg.com/@adobe/lit-mobx@0.0.2/lit-mobx
 
     br{}
     span{ display:block;}
+	
     `;
   }
     render(){
@@ -41,7 +48,7 @@ import { MobxLitElement } from 'https://unpkg.com/@adobe/lit-mobx@0.0.2/lit-mobx
 <div class="holder">
 
 <ul>
-<h4> <a href="/"> <iron-icon icon="icons:content-paste"></iron-icon> &nbsp; RESUME</a></h4>
+<h4> <a href="/">  <mwc-icon>account_circle</mwc-icon>   &nbsp; <span class="txt">RESUME</span></a></h4>
 <h4>360 VR </h4>
 <li> <a href="/cota"> COTA </a> </li>
 <li> <a href="/blueplanet">Blue Planet </a> </li>

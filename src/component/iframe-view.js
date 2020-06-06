@@ -17,6 +17,7 @@ class IframeView extends LitElement {
 constructor() {
    super();
    this.framesrc = 'http://experiencethecircuit.com';
+   
  }
 
   static get styles() {
@@ -25,10 +26,51 @@ constructor() {
       iframe{padding:0px; margin:0px; overflow:hidden;}
 
 .holder{
+  
+  width:100%;
+    align-self: stretch;
+  
+}
+
+
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 320px) {
+	.holder{
+  overflow:hidden;
+  height:100vh;
+  
+ 
+  
+}
+	
+	
+}
+
+
+
+/* Larger than desktop */
+@media (min-width: 1001px) {
+	.holder{
+  overflow:hidden;
+  width:100%;
+  height: 100vh;
+  
+}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1201px) {
+	
+	.holder{
   overflow:hidden;
   width:100%;
   height:100vh;
+  
 }
+}
+
+
     `;
   }
 
