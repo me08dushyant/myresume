@@ -91,7 +91,7 @@ button >span {
 	<textarea placeholder="Your Message" class="form-control" name="message" rows="10" required=""></textarea><br/>
     <button type="submit"> <span>SEND</span> <iron-icon icon="icons:icons:send"></iron-icon> </button><br/>
 	<input type="hidden" name="_captcha" value="false">
-	<input type="hidden" name="_next" value="http://namohomes.com/contact.html">
+	<input type="hidden" name="_next" value="http://dkspro.in/">
 
 </form>
 
