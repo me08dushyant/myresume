@@ -13,7 +13,7 @@ export class CotaPage  extends LitElement{
   }
     render(){
       return html`
-        <iframe-view framesrc="http://experiencethecircuit.com/">
+        <iframe-view framesrc="https://experiencethecircuit.com/">
 
 
         </iframe-view>

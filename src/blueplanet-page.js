@@ -13,7 +13,7 @@ export class BluePlanetPage  extends LitElement{
   }
     render(){
       return html`
-        <iframe-view framesrc="http://aboveinteractive.com/alucia/index.html">
+        <iframe-view framesrc="https://aboveinteractive.com/alucia/index.html">
 
         </iframe-view>
       `;

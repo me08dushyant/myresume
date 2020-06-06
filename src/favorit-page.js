@@ -13,7 +13,7 @@ export class FavoritPage  extends LitElement{
   }
     render(){
       return html`
-        <iframe-view framesrc="http://spm360.de/favorit-massivhaus/herbsthaus/index.html">
+        <iframe-view framesrc="https://spm360.de/favorit-massivhaus/herbsthaus/index.html">
 
         </iframe-view>
       `;
