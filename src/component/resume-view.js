@@ -106,7 +106,7 @@ export class ResumeView  extends LitElement{
       return html`
       <div class="resume" id="resume">
            <div class="contact">
-           <span> <span class="circle"><iron-icon icon="icons:perm-phone-msg"></iron-icon> </span> +91 9897916884</span>
+           <span> <span class="circle"> <mwc-icon>phone</mwc-icon> </span> +91 9897916884</span>
              <span> <span class="circle"><iron-icon icon="icons:mail"></iron-icon> </span>  me08dushyant@gmail.com</span>
              <span> <span class="circle"><iron-icon icon="icons:language"></iron-icon> </span> www.dushyant</span>
            </div>
