@@ -28,7 +28,7 @@ constructor() {
 .holder{
   
   width:100%;
-    align-self: stretch;
+  
   
 }
 
@@ -38,6 +38,7 @@ constructor() {
 @media (min-width: 320px) {
 	.holder{
   overflow:hidden;
+  width:100%;
   height:100vh;
   
  

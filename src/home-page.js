@@ -10,7 +10,7 @@ export class HomePage  extends LitElement{
       .homegrid{display:grid; grid-template-columns:6fr 5fr}
       .portfolio{background-color:black;}
 	  
-	  @media (min-width: 400px) {}
+
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 320px) {
