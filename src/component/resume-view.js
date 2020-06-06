@@ -7,6 +7,8 @@ export class ResumeView  extends LitElement{
 
   static get styles() {
     return css`
+	    a{color:black; font-size:15px; text-decoration:none;}
+    a:hover{text-decoration:none;}
     h1, h2, h3, p {margin:0px;}
     ul{padding-inline-start: 20px;}
     .resume{ padding:1.5em 2.5em 1.5em;  font-size: 110%; background-color:white;}
@@ -127,9 +129,9 @@ export class ResumeView  extends LitElement{
       return html`
       <div class="resume" id="resume">
            <div class="contact">
-           <span> <span class="circle"><mwc-icon>phone</mwc-icon></span><span class="txt"> +91 9897916884</span></span>
-             <span> <span class="circle"><mwc-icon>email</mwc-icon></span> <span class="txt"> me08dushyant@gmail.com</span></span>
-             <span> <span class="circle"><mwc-icon>language</mwc-icon> </span><span class="txt">  www.dushyant</span></span>
+           <span> <a href="tel:+919897916884"><span class="circle"><mwc-icon>phone</mwc-icon></span><span class="txt"> +91 9897916884</span> </a></span>
+             <span><a href="mailto:me08dushyant@gmail.com"> <span class="circle"><mwc-icon>email</mwc-icon></span> <span class="txt"> me08dushyant@gmail.com</span> </a></span>
+             <span> <a href="http://dkspro.in/"><span class="circle"><mwc-icon>language</mwc-icon> </span><span class="txt">  www.dkspro.in</span> </a></span>
            </div>
            <div class="title">
              <h2>DUSHYANT KUMAR SINGH</h2>
