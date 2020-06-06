@@ -82,6 +82,7 @@ import { MobxLitElement } from 'https://unpkg.com/@adobe/lit-mobx@0.0.2/lit-mobx
 <li> <a href="/golfjet">Golf Jet</a></li>
 <li> <a href="/cosmetics">Cosmetis</a></li>
 <li> <a href="/lalaboom">La La Boom</a> </li>
+<li> <a href="/misc">Miscellaneous</a></li>
 <span></span>
 
 <h4> Videos </h4>
