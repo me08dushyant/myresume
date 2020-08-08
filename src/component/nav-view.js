@@ -79,6 +79,7 @@ import { MobxLitElement } from 'https://unpkg.com/@adobe/lit-mobx@0.0.2/lit-mobx
 -->
 <h4> Products Renderings</h4>
 <li> <a href="/paris-potion">Paris Potion</a> </li>
+<li> <a href="/vahdam">Vahdam</a> </li>
 <li> <a href="/golfjet">Golf Jet</a></li>
 <li> <a href="/cosmetics">Cosmetis</a></li>
 <li> <a href="/lalaboom">La La Boom</a> </li>

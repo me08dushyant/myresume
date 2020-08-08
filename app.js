@@ -26,6 +26,7 @@ import './src/parispotion-page.js';
 import './src/lalaboom-page.js';
 import './src/cosmetics-page.js';
 import './src/golfjet-page.js';
+import './src/vahdam-page.js';
 import './src/misc-page.js';
 
 
@@ -65,6 +66,7 @@ router.setRoutes([
   {path: '/golfjet', component: 'golfjet-page'   },
   {path: '/lalaboom', component: 'lalaboom-page'   },
   {path: '/cosmetics', component: 'cosmetics-page'   },
+  {path: '/vahdam', component: 'vahdam-page'   },
   {path: '/misc', component: 'misc-page'   },  
   
   {path: '/namohomes', component: 'namohomes-page'},
